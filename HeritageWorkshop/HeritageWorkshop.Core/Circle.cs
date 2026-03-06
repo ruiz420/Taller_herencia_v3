@@ -14,6 +14,7 @@
         }
         public Circle(string name, double r) : base(name)
         {
+            Name = name;
             R = r;
         }
 
